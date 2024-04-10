@@ -30,7 +30,7 @@ const Article = () => {
         e.target.style.backgroundColor = 'hsl(213, 19%, 18%)';
         e.target.style.borderBottom = '2px solid hsl(25, 97%, 53%)';
 
-        if (e.target.id == 'but-1')
+        if (e.target.id === 'but-1')
             setIsbac(true);
         else {
             setIsbac(false);
