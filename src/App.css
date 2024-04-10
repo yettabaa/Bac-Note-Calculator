@@ -1,0 +1,159 @@
+:root {
+	--White: hsl(0, 0%, 100%);
+	--Light-Grey: hsl(217, 12%, 63%);
+	--Medium-Grey: hsl(216, 12%, 54%);
+	--Dark-Blue: hsl(213, 19%, 18%);
+	--Very-Dark-Blue: hsl(216, 12%, 8%);
+	--Orange: hsl(25, 97%, 53%);
+	--gradient: linear-gradient(to bottom, hsl(215, 20%, 17%), hsl(219, 28%, 10%));
+}
+
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/*
+    2. Remove default margin
+  */
+* {
+	margin: 0;
+}
+
+/*
+    Typographic tweaks!
+    3. Add accessible line-height
+    4. Improve text rendering
+  */
+body {
+	line-height: 1.5;
+	-webkit-font-smoothing: antialiased;
+}
+
+/*
+    5. Improve media defaults
+  */
+img,
+picture,
+video,
+canvas,
+svg {
+	/* display: block; */
+	max-width: 100%;
+}
+
+/*
+    6. Remove built-in form typography styles
+  */
+input,
+button,
+textarea,
+select {
+	font: inherit;
+}
+
+/*
+    7. Avoid text overflows
+  */
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+body {
+	background-color: var(--Very-Dark-Blue);
+	margin: 1rem;
+}
+.App {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+article {
+	background-image: var(--gradient);
+	border-radius: 0.5rem;
+	max-width: 400px;
+	display: grid;
+	gap: 2rem;
+	padding: 2rem 2rem;
+}
+
+img {
+	width: 40%;
+	justify-self: center;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	align-items: center;
+}
+
+.choices {
+	display: flex;
+	border-radius: 0.3rem;
+	overflow: hidden;
+}
+.choices button{
+	width: 100%;
+	border: none;
+	/* border-bottom: 2px solid var(--Orange); */
+	padding: 0.4rem;
+	background-color: var(--Very-Dark-Blue);
+	color: var(--White);
+	cursor: pointer;
+}
+.choices button:hover {
+	border-top: 2px solid var(--Orange);
+}
+#but-2 {
+	font-size: 0.9rem;
+}
+.box {
+	display: flex;
+	gap: 1rem;
+	background-color: none;
+	/* flex-direction: column; */
+}
+span,
+label {
+	color: var(--Medium-Grey);
+	color: var(--White);
+	width: 5rem;
+	background-color: none;
+}
+
+input {
+	align-self: flex-end;
+	background-color: var(--Light-Grey);
+	padding: 0.01rem;
+	border: none;
+	border-radius: 0.2rem;
+}
+#result {
+	color: var(--Orange);
+	font-size: 2rem;
+}
+.submit {
+	width: 90%;
+	color: var(--White);
+	background-color: var(--Orange);
+	border: none;
+	border-radius: 2rem;
+	padding: 0.5rem;
+	cursor: pointer;
+}
+
+.submit:hover {
+	background-color: hsl(25, 100%, 67%);
+}
