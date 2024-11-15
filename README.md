@@ -1,8 +1,9 @@
 # Run Project
-```c
+```bash
 docker-compose up --build
 ```
 Open [http://localhost:3000/Bac-Note-Calculator](http://localhost:3000/Bac-Note-Calculator).
+![](https://github.com/yettabaa/Bac-Note-Calculator/blob/main/Bac-Note-Calculator.gif)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
