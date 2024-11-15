@@ -1,6 +1,6 @@
 # Live Demo
 
-Check out the Bac Note Calculator live: [Visit the Website](https://yettabaa.github.io/Bac-Note-Calculator).
+Check out the Bac Note Calculator live: [https://www.Bac-Note-Calculator.com](https://yettabaa.github.io/Bac-Note-Calculator).
 
 # Run Project
 
