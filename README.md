@@ -3,6 +3,7 @@
 docker-compose up --build
 ```
 Open [http://localhost:3000/Bac-Note-Calculator](http://localhost:3000/Bac-Note-Calculator).
+
 ![](https://github.com/yettabaa/Bac-Note-Calculator/blob/main/Bac-Note-Calculator.gif)
 # Getting Started with Create React App
 
