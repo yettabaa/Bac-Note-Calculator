@@ -1,4 +1,9 @@
+# Live Demo
+
+Check out the Bac Note Calculator live: [Visit the Website](https://yettabaa.github.io/Bac-Note-Calculator).
+
 # Run Project
+
 ```bash
 docker-compose up --build
 ```
