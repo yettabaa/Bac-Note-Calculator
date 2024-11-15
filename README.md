@@ -1,5 +1,7 @@
 # Run Project
-docker-compose up --build   
+```c
+docker-compose up --build
+```
 Open [http://localhost:3000/Bac-Note-Calculator](http://localhost:3000/Bac-Note-Calculator).
 # Getting Started with Create React App
 
