@@ -1,5 +1,5 @@
 # **Bac Note Calculator**
-👇
+👉
 [![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen)](https://yettabaa.github.io/Bac-Note-Calculator)  
 A React-based web application designed to help students calculate their current grades for the Baccalaureate exam. The app provides a clear understanding of their academic standing and helps them set realistic goals for success.
 
